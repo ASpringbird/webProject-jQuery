@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>知问前端</title>
+	<script src="js/jquery-1.10.2.js"></script>
+	<script src="js/jquery-ui-1.10.4.custom.js"></script>
+	<script src="js/jquery.validate.js"></script>
+	<script src="js/index.js"></script>
+	<link rel="shortcut icon" href="image/favicon.ico" type="image/x-icon"/>
+	<link rel="stylesheet" href="css/jquery-ui-1.10.4.custom.css" rel="stylesheet"/>
+	<link rel="stylesheet" href="css/style.css" rel="stylesheet"/>
+</head>
+<body>
+
+	<div id="header">
+		<div class="header_main">
+			<h1>知问</h1>
+			<div class="header_search">
+				<input class="search" type="text" name="search"/>
+			</div>
+			<div class="header_button">
+				<button id="search_button">查询</button>
+			</div>
+			<div class="header_member">
+				<a id="reg_a" href="###">注册</a> | <a id="login_a" href="###">登录</a>
+			</div>		
+		</div>
+	</div>
+
+	<form id="reg" action="123.html" title="会员注册"> 
+		<ol class="reg_error"></ol>
+		<p>
+			<label for="user">账号：</label>
+			<input class="text" id="user" type="text" name="user"/>
+			<span class="star"> *</span>
+		</p>
+		<p>
+			<label for="user">密码：</label>
+			<input class="text" id="pass" type="password" name="pass"/>
+			<span class="star"> *</span>
+		</p>
+		<p>
+			<label for="user">邮箱：</label>
+			<input class="text" id="email" type="text" name="email"/>
+			<span class="star"> *</span>
+		</p>
+		<p>
+			<label>性别：</label>
+			<input id="male" type="radio" name="sex" value="male" checked="checkded" /><label for="male">男</label>
+			<input id="female" type="radio" name="sex" value="female"/><label for="female">女</label>
+			<p>
+				<label for="birthday">生日：</label>
+				<input class="text" id="birthday" type="text" name="birthday" readonly="readonly"/>
+			</p>
+		</p>
+	</form>
+
+</body>
+</html>
